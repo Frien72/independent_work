@@ -16,4 +16,8 @@
     <string name="number_division">÷</string>
     <string name="number_increase">×</string>
     <string name="number_plus">+</string>
+    <string name="number_removal">c</string>
+    <string name="number_erasing">→</string>
+    <string name="number_percent">%</string>
+    <string name="number_smile">☺</string>
 </resources>
