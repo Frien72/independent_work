@@ -13,4 +13,7 @@
     <string name="number_0">0</string>
     <string name="number_equals">=</string>
     <string name="number_minus">-</string>
+    <string name="number_division">÷</string>
+    <string name="number_increase">×</string>
+    <string name="number_plus">+</string>
 </resources>
