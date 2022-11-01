@@ -4,23 +4,24 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#46FFDD00"
-    tools:context=".MainActivity">
+    android:background="#72009688"
+    tools:context=".ui.MainActivity">
 
 
     <TextView
+        android:id="@+id/result"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="100500"
         android:textSize="50sp"
         android:textColor="#0048FF"
-        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintBottom_toTopOf="@+id/button1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/button1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/number_1"
@@ -34,8 +35,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/number_2"
-        app:layout_constraintTop_toTopOf="@id/button"
-        app:layout_constraintStart_toEndOf="@+id/button"
+        app:layout_constraintTop_toTopOf="@id/button1"
+        app:layout_constraintStart_toEndOf="@+id/button1"
         app:layout_constraintEnd_toStartOf="@id/button3"
          />
 
@@ -55,8 +56,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/number_4"
-        app:layout_constraintStart_toStartOf="@id/button"
-        app:layout_constraintTop_toBottomOf="@id/button"
+        app:layout_constraintStart_toStartOf="@id/button1"
+        app:layout_constraintTop_toBottomOf="@id/button1"
 
         />
 
@@ -187,9 +188,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/number_removal"
-        app:layout_constraintBottom_toTopOf="@id/button"
-        app:layout_constraintStart_toStartOf="@id/button"
-        app:layout_constraintEnd_toEndOf="@id/button"
+        app:layout_constraintBottom_toTopOf="@id/button1"
+        app:layout_constraintStart_toStartOf="@id/button1"
+        app:layout_constraintEnd_toEndOf="@id/button1"
         />
     <Button
         android:id="@+id/button_erasing"
