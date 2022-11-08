@@ -20,5 +20,7 @@
     <string name="number_erasing">→</string>
     <string name="number_percent">%</string>
     <string name="number_smile">☺</string>
+    <string name="dark_style">Dark style</string>
+    <string name="light_style">Light style</string>
 
 </resources>

@@ -1,7 +1,9 @@
 package com.example.oooaksinya.ui;
 
+import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
@@ -20,8 +22,12 @@ public class MainActivity extends AppCompatActivity implements CalculatorView {
 
     private CalculatorPresenter presenter;
 
+    private static final String appTheme = "APP_THEME";
+    private static final int lightStyle = 0;
+    private static final int darkStyle = 1;
 
 
+    @RequiresApi(api = Build.VERSION_CODES.Q)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -88,6 +94,8 @@ public class MainActivity extends AppCompatActivity implements CalculatorView {
             }
         });
     }
+
+
 
     @Override
     public void showResult(String result) {
